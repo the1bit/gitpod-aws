@@ -3,7 +3,7 @@ tasks:
   # random utilities
   - name: utils
     before: |
-      sudp apt-get install tree -y
+      sudo apt-get install tree -y
   - name: aws-cli
     env:
       AWS_CLI_AUTO_PROMPT: on-partial
